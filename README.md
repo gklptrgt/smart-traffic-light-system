@@ -1,6 +1,9 @@
 # Smart Traffic Light System
 This is my Graduation Project for the University.
 
+![graduation_project](https://github.com/user-attachments/assets/ccbbe95f-5dd7-42b4-89d5-d95f0bff99de)
+
+
 The purpose of this project is to design and implement a Smart Traffic Light System that
 addresses the limitations of traditional traffic light systems and introduces innovative
 functionalities to optimize traffic management, improve road safety, and enhance overall
@@ -127,9 +130,23 @@ By following this comprehensive methodology, the development, implementation, an
 
 # Additional Resources
 ![image](https://github.com/user-attachments/assets/c41eeaae-96e8-427b-8ce0-528398b67552)
+
 If you like to edit the paths of the cars just uncomment this section from the main.py and comment the spawner function which spawns’ cars for the simulation.
 
 ![image](https://github.com/user-attachments/assets/03455726-3652-4f03-b367-7bb4f80d4634)
+
 On the path editor you can click where ever you want to edit the path and then from top right section you can save the paths to the local data holder to use them in the simulation.
+
+# Conclusion
+This chapter provided a comprehensive evaluation of the Smart Traffic Light System based on performance metrics, simulation scenarios, and comparative studies. The findings demonstrated the system's effectiveness in preventing crashes, reducing waiting times, optimizing traffic flow, and enhancing energy efficiency. The chapter concluded with insights and recommendations derived from the evaluation results, contributing to the understanding and further development of the Smart Traffic Light System.
+The subsequent chapters will delve into specific aspects related to the Smart Traffic Light System, such as the system's design and implementation, advantages, and future directions for research and development.
+
+| Test        | Run 1       | Average of 10 runs | Average waiting time per car |
+|-------------|-------------|--------------------|------------------------------|
+| Normal      | 14          | 54                 | 45 seconds                   |
+| Algorithm 1 | 26          | 74                 | 23 seconds                   |
+| Results     | +9 (+%52.9) | +20 (+%37.03)      | -22 seconds (-%48.8)         |
+
+As results show Algorithm 1 performs way better than real life traffic lights. There are 9 more cars passing on first run, 20 more cars on average of 10 tests and 22 seconds less waiting time on red light which decreases air pollution.
 
 
